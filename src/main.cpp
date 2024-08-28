@@ -76,7 +76,7 @@ void handleKeyPress(unsigned char key, int x, int y) {
 
 int main(int argc, char *argv[]) {
     glutInit(&argc, argv);
-    glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH | GLUT_3_2_CORE_PROFILE);
+    glutInitDisplayMode(GL_DOUBLE | GLUT_RGB | GLUT_DEPTH | GLUT_3_2_CORE_PROFILE);
     glutInitWindowSize(640, 480);
     glutInitWindowPosition(200, 200);
     glutCreateWindow("open_gl_glut");
